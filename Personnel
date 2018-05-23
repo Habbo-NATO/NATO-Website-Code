@@ -1,0 +1,42 @@
+<html>
+<div class="container">
+      <div class="logo">
+        <a href="/personnel"><i class="star"></i> NATO</a>
+      </div>
+    <nav role="navigation">
+            <div class="dd_menu_wrapper">
+                <label for="dd-0" class="dd_label"> </label>
+                <input type="checkbox" class="dd_toggle" id="dd-0">
+                <ul class="dd_menu">
+                    <li class="dd_parent">
+                      <label for="dd-1" data-href="#">Personnel</label>
+                      <input type="checkbox" class="dd_trigger" id="dd-1">
+                      <ul>
+                        <li><a href="index.php?page=office">Offices</a></li>
+                        <li><a href="index.php?page=DTPs">DTPs</a></li>
+                        <li><a href="index.php?page=medals">Medals</a></li>
+                        <li><a href="index.php?page=discharged">Discharges</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="index.php?page=osd">OSD</a></li>
+                    
+                    <li><a href="index.php?page=stats">Stats</a></li>
+                    <li><a href="index.php?page=sailor">Search</a></li>
+
+                    <li class="dd_parent">
+                          <label for="dd-2" data-href="#">Request</label>
+                          <input type="checkbox" class="dd_trigger" id="dd-2">
+ 
+                    </li>
+
+                    <li class="dd_parent">
+                      <label for="dd-3" data-href="admin.php">Admin</label>
+                      <input type="checkbox" class="dd_trigger" id="dd-3">
+                      <ul>
+                        <li><a href="admin.php">Login</a></li>
+                        <li><a href="index.php?page=register">Register Account</a></li>
+                        
+                      </ul>
+            </div>
+        </nav>
+   </div>
